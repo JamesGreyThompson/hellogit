@@ -1,13 +1,16 @@
 //Student.cpp
 #include "Student.h"
+#include <string> 
  
-Student::Student(double i, string n);
+
+Student::Student(){};
+Student::Student(double i, string n)
 {
 id = i;
 name = n;
 }
 
-void Student:: setA(i)
+void Student:: setA(double i)
 {
 id = i;
 }
@@ -17,12 +20,12 @@ return id;
 }
 
 
-void Student:: setB(i)
+void Student:: setB( string n)
 {
 name = n;
 
 }
-double Student::getB()
+ string Student::getB()
 {
 return name;
 }
